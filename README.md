@@ -1,4 +1,4 @@
-Abstract
+Abstract:
                                                     Exam Hall Seat Allocation System
                An Exam Hall Seat Allocation system is a specialized software solution designed to automate the complex task of organizing examinations. In a manual setup, administrators often struggle with overlapping schedules, limited classroom capacity, and the logistical nightmare of ensuring students from the same course aren't sitting close enough to compromise academic integrity.
              The management of academic examinations involves the complex task of organizing large numbers of students into limited physical spaces while adhering to strict institutional regulations. Traditional methods of manual seat allocation are often inefficient, and struggle to address the dynamic constraints of modern educational environments. This paper presents an automated Exam Hall Seat Allocation System designed to streamline the invigilation process and ensure examination integrity.
