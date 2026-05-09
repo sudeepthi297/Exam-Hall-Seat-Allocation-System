@@ -1,0 +1,10 @@
+<div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+    <h2>Your Exam Seat</h2>
+    {% if data %}
+        <div style="font-size: 2rem; color: #4a90e2; margin: 20px;">{{ data.Seat }}</div>
+        <p>Name: {{ data.Name }} | Subject: {{ data.Subject }}</p>
+    {% else %}
+        <p>No seat assigned yet.</p>
+    {% endif %}
+    <a href="/logout">Logout</a>
+</div>

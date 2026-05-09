@@ -1,0 +1,16 @@
+<style>
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+    th { background-color: #4a90e2; color: white; }
+</style>
+<h2>Teacher Dashboard - Master Allocation</h2>
+<a href="/logout">Logout</a>
+<table>
+    <tr><th>Seat</th><th>ID</th><th>Name</th><th>Branch</th><th>Subject</th></tr>
+    {% for s in allocation %}
+    <tr>
+        <td>{{ s.Seat }}</td><td>{{ s.ID }}</td><td>{{ s.Name }}</td>
+        <td>{{ s.Branch }}</td><td>{{ s.Subject }}</td>
+    </tr>
+    {% endfor %}
+</table>
